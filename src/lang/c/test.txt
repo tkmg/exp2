@@ -1,0 +1,29 @@
+int z;
+int function();
+void fa();
+int* ffff();
+
+func int function(){
+	int a, b, c, d, e, f, ga, h, i, j, k, ka;
+	int z;
+	z = a;
+	//d = function;
+	call fa();
+	return a;
+}
+func void fa(){
+	int a;
+	//int eirgjpe();
+	a = 5;
+	//a= ffff();
+	a = function(); 
+	//a = eirgjpe();
+	return;
+}
+
+// 関数の多重定義
+func void fa(){}
+
+func int* ffff(){
+	return &25;
+}

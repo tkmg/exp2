@@ -25,6 +25,9 @@ public class Function extends CParseRule {
 		return ident;
 	}
 
+
+
+
 	public void parse(CParseContext pcx) throws FatalErrorException {
 		CTokenizer ct = pcx.getTokenizer();
 		CToken tk = ct.getCurrentToken(pcx);
